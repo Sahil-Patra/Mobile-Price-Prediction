@@ -101,10 +101,10 @@ df = pd.read_csv("dataset.csv")
 y = df['price_range']
 X = df.drop('price_range', axis=1)
 ```
-We split the dataset into:
+- We split the dataset into:
  - X: all features (independent variables) like battery, RAM, etc.
  - y: the target variable (price_range), which we want to predict.
-This separation is essential for training a supervised learning model.
+- This separation is essential for training a supervised learning model.
 
 **Scaling the feature**
 ```python
@@ -141,7 +141,7 @@ outputs = tf.keras.layers.Dense(4, activation='softmax')(x)
  - Dense(128): Fully connected hidden layer with 128 neurons and ReLU activation to introduce non-linearity.
  - Dropout(0.3): Regularization technique that randomly turns off 30% of neurons during training to prevent overfitting.
  - Dense(64): Second hidden layer with 64 neurons.
-Output layer has 4 neurons (one for each class). softmax is used for multi-class classification, converting logits into class probabilities.
+- Output layer has 4 neurons (one for each class). softmax is used for multi-class classification, converting logits into class probabilities.
 
 **Compile the Model**
 ```python
