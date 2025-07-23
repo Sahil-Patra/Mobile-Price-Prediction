@@ -20,11 +20,11 @@ Smartphone manufacturers and retailers often want to price their products based 
 ---
 
 ## Tools Used
-- **Google Colab Notebook**: used because it have free access to computing resources.
-- **Pandas**: used for data loading, exploration, and manipulation.
-- **Scikit-learn**: used for for preprocessing, splitting data, and evaluation metrics.
-- **TensorFlow**: used for building, compiling, training, and evaluating your deep learning classification model.
-- **NumPy**: Used for numerical operations, array manipulations, and conversions between tensor formats and NumPy arrays.
+- ``**Google Colab Notebook**``: used because it have free access to computing resources.
+- ``**Pandas**``: used for data loading, exploration, and manipulation.
+- ``**Scikit-learn**``: used for for preprocessing, splitting data, and evaluation metrics.
+- ``**TensorFlow**``: used for building, compiling, training, and evaluating your deep learning classification model.
+- ``**NumPy**``: Used for numerical operations, array manipulations, and conversions between tensor formats and NumPy arrays.
 - `**Matplotlib**` : used for to visualize training performance.
 
   ---
